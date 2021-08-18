@@ -32,8 +32,9 @@ public class Producer implements Runnable {
                     // 阻塞线程并释放锁  await
                     condition.await();
                 }
-                System.out.println("生产消息：" + i);
+                Thread.sleep(1000);
 
+                System.out.println("生产消息：" + i);
                 queueMsg.add("生产的内容 " + i);
 
                 // 唤醒阻塞状态下的线程 signal

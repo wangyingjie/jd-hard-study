@@ -7,7 +7,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Hello world!
+ * 生产者消费者模型代码示例
  */
 public class App {
 
